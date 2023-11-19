@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Calculator </title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <link rel="stylesheet" type="text/css"  href = "style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="outerpart">
+            <h1 id="title"> Calculator </h1>
+            <h3 id="auth">ninin version</h3>
+            <div id="innerpart">
+                <input type="text" name="" id="field" value="">
+                <table id="calc">
+                    <tr>
+                        <th><input type="button" id="calcButton" onclick="hehe()" value="?"></th>
+                        <th><input type="button" id="calcButton" onclick="clearField()" value="C"></th>
+                        <th><input type="button" id="calcButton" onclick="backspace()" value="<-"></th>
+                        <th><input type="button" id="calcButton" onclick="add('/')" value="/"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" id="calcButton" onclick="add('7')" value="7"></th>
+                        <th><input type="button" id="calcButton" onclick="add('8')" value="8"></th>
+                        <th><input type="button" id="calcButton" onclick="add('9')" value="9"></th>
+                        <th><input type="button" id="calcButton" onclick="add('*')" value="*"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" id="calcButton" onclick="add('4')" value="4"></th>
+                        <th><input type="button" id="calcButton" onclick="add('5')" value="5"></th>
+                        <th><input type="button" id="calcButton" onclick="add('6')" value="6"></th>
+                        <th><input type="button" id="calcButton" onclick="add('-')" value="-"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" id="calcButton" onclick="add('1')" value="1"></th>
+                        <th><input type="button" id="calcButton" onclick="add('2')" value="2"></th>
+                        <th><input type="button" id="calcButton" onclick="add('3')" value="3"></th>
+                        <th><input type="button" id="calcButton" onclick="add('+')" value="+"></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" id="calcButton" onclick="add('%')" value="%"></th>
+                        <th><input type="button" id="calcButton" onclick="add('0')" value="0"></th>
+                        <th><input type="button" id="calcButton" onclick="add('.')" value="."></th>
+                        <th><input type="button" id="calcButton" onclick="calculate()" value="="></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
